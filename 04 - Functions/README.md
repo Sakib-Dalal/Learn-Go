@@ -1,7 +1,10 @@
 ## Functions
-- main function ``` func main() {} ```
-- other function's
+- main function 
+```go
+ func main() {} 
 ```
+- other function's
+```go
 func main() {
 	fmt.Println("This is main function")
 
@@ -26,7 +29,7 @@ func paramFunction(age int, name string) {
 ```
 
 - return function
-``` 
+```go
 func main() {
 	fmt.Println("This is main function")
 
@@ -42,7 +45,7 @@ func additionFunction(a, b int) int {
 ```
 
 - return multiple value's
-```
+```go
 func main() {
 	fmt.Println("This is main function")
 
