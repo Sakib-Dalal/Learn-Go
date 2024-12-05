@@ -38,4 +38,19 @@ func main() {
 	// reassign array
 	dynamicArray = updatedDynamicArray
 	fmt.Println(dynamicArray)
+
+	// combine two arrays in one
+	arrayOne := []int{1, 2, 3, 4}
+	arrayTwo := []int{5, 6, 7}
+
+	combineArray := append(arrayOne, arrayTwo...)
+	fmt.Println(combineArray)
+
+	// make() function to create array
+	userNames := make([]string, 2, 5) // create string datatype array with length of 2 elements
+	// make([]type, min capacity, max capacity)
+	// assign values to array
+	userNames[0] = "Max"
+	userNames[1] = "Joy"
+	fmt.Println(userNames)
 }

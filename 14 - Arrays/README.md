@@ -88,3 +88,24 @@ output:
 [1 23 3 4] [1 23 3]
 [1 23 3 4]
 ```
+
+- Combine two arrays
+```go
+// combine two arrays in one
+arrayOne := []int{1, 2, 3, 4}
+arrayTwo := []int{5, 6, 7}
+
+combineArray := append(arrayOne, arrayTwo...)
+fmt.Println(combineArray)
+```
+
+- make() function to create array
+```go
+userNames := make([]string, 2) // create string datatype array with length of 2 elements
+// userNames := make([]string, 2, 5)
+// make([]type, min capacity, max capacity)
+// assign values to array
+userNames[0] = "Max"
+userNames[1] = "Joy"
+fmt.Println(userNames)
+```
